@@ -38,7 +38,7 @@ noButton.addEventListener("click", () => {
     const baseWidth = parseFloat(yesButtonStyle.width);
     const scaledWidth = baseWidth * yesScale; // Reflects the actual visual size of the button
 
-    console.log(`Scaled Width: ${scaledWidth}, Max Width: ${maxYesWidth}`);
+    
 
     // Check if the scaled width is less than the max width
     if (scaledWidth < maxYesWidth) {

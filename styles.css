@@ -19,7 +19,7 @@ body {
     background: linear-gradient(#ffffff, #f9d6d6);
     font-family: "Steph", sans-serif;
 }
-
+// upload your own fonts and edit the path
 @font-face {
     font-family: "Steph";
     src: url("assets/fonts/steph-font.ttf");

@@ -11,7 +11,7 @@ const yesButtonStyle = window.getComputedStyle(yesButton);
 const maxYesWidth = parseFloat(yesButtonStyle.maxWidth);
 
 // change this array and use your own gifs
-const gifs = ["assets/images/sad-1.gif", "assets/images/sad-2.gif", "assets/images/sad-3.gif", "assets/images/sad-4.gif"];
+const gifs = ["assets/images/cry1.gif", "assets/images/cry2.gif", "assets/images/cry3.gif", "assets/images/cry4.gif"];
 const buttonMessages = ["Are you sure??", "Please", "PLEASE", "You can't do this to me!"];
 
 // no button clicked

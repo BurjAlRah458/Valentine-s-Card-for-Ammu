@@ -2,7 +2,7 @@ let noClicks = 1;
 const maxNoClicks = 4;
 const minNoScale = 0.65;
 let noScale = 1;
-let yesScale = 1; // Tracks the scaling factor directly
+let yesScale = 1; 
 const gifElement = document.getElementById("gif");
 const noButton = document.getElementById("no-btn");
 const yesButton = document.getElementById("yes-btn");
@@ -10,9 +10,8 @@ const buttonContainer = document.querySelector(".btn-container");
 const yesButtonStyle = window.getComputedStyle(yesButton);
 const maxYesWidth = parseFloat(yesButtonStyle.maxWidth);
 
-// array of gifs - in order
+
 const gifs = ["assets/images/sad-1.gif", "assets/images/sad-2.gif", "assets/images/sad-3.gif", "assets/images/sad-4.gif"];
-// array of messages
 const buttonMessages = ["Are you sure??", "Please", "PLEASE", "You can't do this to me!"];
 
 // no button clicked
